@@ -1,0 +1,19 @@
+/* ContactSection.css */
+
+.contact-section {
+    padding: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  button
+  {
+    margin-top: 10px;
+    border: none; /* Usunięcie obramowania */
+  }

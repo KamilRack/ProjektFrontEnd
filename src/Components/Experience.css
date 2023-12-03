@@ -1,0 +1,54 @@
+/* Experience.css */
+body
+{
+    background-color: gray;
+
+}
+.experience-section {
+    padding: 10px 0;
+    background-color: #333; /* Kolor tła */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-title {
+    color: white; /* Kolor tytułu */
+  }
+
+.experience-title {
+    color: #FFF; /* Kolor tekstu w klasie .experience-title */
+}
+
+  .experience-item {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  .experience-image {
+    flex: 0 0 150px; /* Szerokość obrazu */
+    margin-right: 20px;
+  }
+  
+  .experience-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .experience-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .experience-content h3 {
+    color: #007bff; /* Kolor tytułu stanowiska */
+  }
+  
+  .experience-content p {
+    color: white; /* Kolor tekstu */
+  }
+  

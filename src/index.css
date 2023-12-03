@@ -1,13 +1,185 @@
+/* src/index.css */
 body {
-  margin: 0;
+  margin: 100px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* src/Components/navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:dimgray;
+  padding: 2px;
+}
+
+/* src/Components/navbar.css */
+.logo img {
+  max-height: 80px; 
+  width: auto; 
+  object-fit:fill; 
+}
+
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* src/Components/HeroSection.css */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap; /* Dodałem flex-wrap, aby zawartość przechodziła do nowej linii, jeśli ekran jest za mały */
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px; /* Zmniejszyłem odstępy */
+  max-width: auto; /* Dostosuj szerokość maksymalną */
+  margin: 0 auto; /* Centruj sekcję */
+  background-color: #333;
+  color: white;
+  margin-left: auto;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  margin:auto;
+  margin-left: 250px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-left: 30%;
+  max-width: 100%;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff; /* Dostosuj kolor przycisku */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 250px;
+}
+
+.hero-image {
+  flex-grow: 1; /* Dostosuj, aby zajmowało dostępne miejsce */
+  margin-top: 20px; /* Dostosuj odstęp między tekstem a zdjęciem */
+}
+.hero-image img {
+  max-width: 580px;
+  max-height: 400px; /* Dostosuj wartość maksymalnej wysokości według potrzeb */
+  border-radius: 2px;
+}
+
+
+/* Dodaj stylizację dla zdjęcia, na przykład .hero-image img { ... } */
+
+/* src/Components/SkillsSection.css */
+.skills-section {
+  padding: 10px 100px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  margin-right: 0; /* Usuń margines po prawej stronie */
+  padding-right: 0; /* Dodaj zerowy padding po prawej stronie */
+  margin-bottom: 20px;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: gray;
+
+}
+
+.card {
+  width: 400px; /* Dostosuj szerokość karty według potrzeb */
+  margin: auto;
+
+}
+
+
+
+.skillstitle {
+  text-align: center;
+  background-color: gray;
+
+  margin-bottom: 30px;
+  font-size: 2rem; /* Dostosuj rozmiar czcionki tytułu */
+  color: white; /* Dostosuj kolor tekstu */
+}
+
+/* Stylizacja kwadratów */
+.card {
+  border: 1px solid black; /* Dodaj obramowanie */
+  border-radius: 8px; /* Dodaj zaokrąglenie krawędzi */
+  transition: transform 0.3s ease-in-out; /* Dodaj efekt przejścia */
+  flex: 1; /* Równy udział w przestrzeni */
+  margin: 0 10px; /* Dodaj odstęp między kartami */
+  background-color: #333; /* Dostosuj kolor tła */
+  color: white; /* Dostosuj kolor tekstu */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Powiększ kwadrat przy najechaniu kursorem */
+}
+
+/* Stylizacja obrazu wewnątrz kwadratów */
+.card img {
+  max-height: 200px; /* Dostosuj maksymalną wysokość obrazu */
+  width: 100%;
+  margin-bottom: 20px; /* Dodaj odstęp od tekstu poniżej obrazu */
+}
+
+/* Stylizacja tekstu wewnątrz kwadratów */
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem; /* Dostosuj rozmiar czcionki tytułu umiejętności */
+}
+
+.card-text {
+  font-size: 1rem; /* Dostosuj rozmiar czcionki opisu umiejętności */
+}
+
+/* Nowe style dla Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

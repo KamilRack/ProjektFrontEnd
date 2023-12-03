@@ -1,0 +1,9 @@
+.footer {
+    background-color: gray; /* Kolor tła stopki */
+    color: white; /* Kolor tekstu */
+    text-align: center;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+  }

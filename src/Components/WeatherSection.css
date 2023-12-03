@@ -1,0 +1,30 @@
+/* WeatherSection.css */
+
+.weather-section {
+    padding: 40px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+  }
+  
+  .weather-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .weather-card {
+    width: 400px; /* Dostosuj szerokość karty według potrzeb */
+    margin: auto;
+    background-color: lightgray;
+  }
+  
+  .weather-icon-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: auto;
+  }
+  
